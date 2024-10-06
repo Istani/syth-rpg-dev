@@ -11,6 +11,8 @@
     "nx": "19.8.4"
   },
   "workspaces": [
+    "apps/*",
+    "libs/*",
     "packages/*"
   ],
   "config": {
