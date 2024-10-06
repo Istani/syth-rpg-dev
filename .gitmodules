@@ -4,3 +4,6 @@
 [submodule "libs/database"]
 	path = libs/database
 	url = git@github.com:Istani/syth-databse.git
+[submodule "libs/debug"]
+	path = libs/debug
+	url = git@github.com:Istani/nodemodule_colorfullog.git
