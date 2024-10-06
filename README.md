@@ -77,7 +77,7 @@ rm -rf libs/[database]
 git submodule add [git@github.com:Istani/syth-databse.git] libs/[database]
 ```
 
-- Libary:
+- Packages:
 ```sh
 nx g npm-package packages/[web-api-rpg]
 rm -rf packages/[web-api-rpg]
