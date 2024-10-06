@@ -13,6 +13,8 @@ Aber so koennen wir schon mal anfangen.
 ### Installation
 Ich hab es noch nicht ausprobiert, weil ich das nur auf einen System am laufen haben aber die Schritte sollten wie folgt sein:
 ```
+git clone git@github.com:Istani/syth-rpg-dev.git
+cd syth-rpg-dev
 git submodule update --init --recursive
 npm install
 ```
@@ -25,7 +27,13 @@ npm install
 ```
 
 ### Starten
-Noch nicht implementiert
+Noch nicht implementiert.
+Achtung: 
+Einige Submodule brauchen ENV Einstellungen/Config Dateien.
+Die sind so natuerlich nicht oeffentlich im GitRepo, wegen Serverlogins etc...
+
+### Entwicklung
+Keine Ahnung wie das mit Forks und Pull Reqeusts funktioniert.
 
 ### Commits
 Ich hab mir dafuer commitizen installiert.
