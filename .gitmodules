@@ -11,3 +11,6 @@
 [submodule "packages/web-api-rpg"]
 	path = packages/web-api-rpg
 	url = git@github.com:Istani/syth-webserver-rpgapi.git
+[submodule "packages/web-rp-frontend"]
+	path = packages/web-rp-frontend
+	url = git@github.com:sandromund/twitch_rpg_front.git
