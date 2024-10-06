@@ -41,11 +41,7 @@ Ich hab mir dafuer commitizen installiert.
 npm install -g commitizen
 commitizen init cz-conventional-changelog --save-dev --save-exact 
 ```
-oder
-```
-npm install -g commitizen
-npm install -g cz-conventional-changelog echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
-```
+
 
 Und dann:
 ```
@@ -55,4 +51,12 @@ cz
 
 ### Erweitern um neue Application/Packages/Libary
 Mit der Aufteilung bin ich mir noch nicht ganz sicher. Ich wuerde sagen, in `apps` kommen die Anwendungen die nachher starten muessen. In `libs` kommen die sachen, die grundlegende funktionalitaeten fuer alle Anwendungen bereit stellen und in `packages` kommen die Sachen die irgendwie von den apps benoetigt werden?
+Weil NX aber nicht direkt mit SubModulen arbeitet, muss man da ein wenig tricksen...
 
+- Application:
+```
+nx g npm-package apps/webserver
+(Vielleicht die Daten sichern bevor man loescht)
+rm -rf apps/webserver
+git submodule add git@github.com:Istani/syth-webserver.git apps/webserver
+```
