@@ -60,3 +60,11 @@ nx g npm-package apps/webserver
 rm -rf apps/webserver
 git submodule add git@github.com:Istani/syth-webserver.git apps/webserver
 ```
+
+- Libary:
+```
+nx g npm-package libs/database
+(Vielleicht die Daten sichern bevor man loescht)
+rm -rf libs/database
+git submodule add git@github.com:Istani/syth-databse.git libs/database
+```

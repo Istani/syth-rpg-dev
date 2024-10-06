@@ -1,3 +1,6 @@
 [submodule "apps/webserver"]
 	path = apps/webserver
 	url = git@github.com:Istani/syth-webserver.git
+[submodule "libs/database"]
+	path = libs/database
+	url = git@github.com:Istani/syth-databse.git
