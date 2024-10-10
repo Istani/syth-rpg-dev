@@ -68,6 +68,8 @@ Weil NX aber nicht direkt mit SubModulen arbeitet, muss man da ein wenig trickse
 nx g npm-package apps/[webserver]
 rm -rf apps/[webserver]
 git submodule add [git@github.com:Istani/syth-webserver.git] apps/[webserver]
+cd apps/[webserver]
+git checkout main
 ```
 
 - Libary:
@@ -75,6 +77,8 @@ git submodule add [git@github.com:Istani/syth-webserver.git] apps/[webserver]
 nx g npm-package libs/[database]
 rm -rf libs/[database]
 git submodule add [git@github.com:Istani/syth-databse.git] libs/[database]
+cd libs/[database]
+git checkout main
 ```
 
 - Packages:
@@ -82,4 +86,8 @@ git submodule add [git@github.com:Istani/syth-databse.git] libs/[database]
 nx g npm-package packages/[web-api-rpg]
 rm -rf packages/[web-api-rpg]
 git submodule add [git@github.com:Istani/syth-webserver-rpgapi.git] packages/[web-api-rpg]
+cd packages/[web-api-rpg]
+git checkout main
 ```
+
+git submodule add git@github.com:Istani/nodemodule_express_githubwebhook.git packages/web-hook-github

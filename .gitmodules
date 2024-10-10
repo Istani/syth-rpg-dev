@@ -7,10 +7,12 @@
 [submodule "libs/debug"]
 	path = libs/debug
 	url = git@github.com:Istani/nodemodule_colorfullog.git
-
 [submodule "packages/web-api-rpg"]
 	path = packages/web-api-rpg
 	url = git@github.com:Istani/syth-webserver-rpgapi.git
 [submodule "packages/web-rp-frontend"]
 	path = packages/web-rp-frontend
 	url = git@github.com:sandromund/twitch_rpg_front.git
+[submodule "packages/web-hook-github"]
+	path = packages/web-hook-github
+	url = git@github.com:Istani/nodemodule_express_githubwebhook.git
