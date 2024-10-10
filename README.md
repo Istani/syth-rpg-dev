@@ -89,5 +89,3 @@ git submodule add [git@github.com:Istani/syth-webserver-rpgapi.git] packages/[we
 cd packages/[web-api-rpg]
 git checkout main
 ```
-
-git submodule add git@github.com:Istani/nodemodule_express_githubwebhook.git packages/web-hook-github
