@@ -72,10 +72,6 @@ cd apps/[webserver]
 git checkout main
 ```
 
-git@github.com:Istani/syth_rpg_logic.git
-
-
-
 - Libary:
 ```sh
 nx g npm-package libs/[database]
