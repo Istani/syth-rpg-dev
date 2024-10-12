@@ -16,3 +16,6 @@
 [submodule "packages/web-hook-github"]
 	path = packages/web-hook-github
 	url = git@github.com:Istani/nodemodule_express_githubwebhook.git
+[submodule "apps/rpg_logic"]
+	path = apps/rpg_logic
+	url = git@github.com:Istani/syth_rpg_logic.git
