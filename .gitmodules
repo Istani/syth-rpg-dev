@@ -19,3 +19,6 @@
 [submodule "apps/rpg_logic"]
 	path = apps/rpg_logic
 	url = git@github.com:Istani/syth_rpg_logic.git
+[submodule "libs/horde.ai"]
+	path = libs/horde.ai
+	url = git@github.com:Istani/test_hordeai.git
