@@ -22,3 +22,6 @@
 [submodule "libs/horde.ai"]
 	path = libs/horde.ai
 	url = git@github.com:Istani/test_hordeai.git
+[submodule "libs/groq-cloud.ai"]
+	path = libs/groq-cloud.ai
+	url = git@github.com:Istani/test_groqcloud.git
