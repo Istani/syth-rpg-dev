@@ -25,3 +25,6 @@
 [submodule "libs/groq-cloud.ai"]
 	path = libs/groq-cloud.ai
 	url = git@github.com:Istani/test_groqcloud.git
+[submodule "packages/rpg-promptgen"]
+	path = packages/rpg-promptgen
+	url = git@github.com:Istani/syth-rpg-prompgenerator.git
