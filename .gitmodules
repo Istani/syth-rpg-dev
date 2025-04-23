@@ -28,3 +28,10 @@
 [submodule "packages/rpg-promptgen"]
 	path = packages/rpg-promptgen
 	url = git@github.com:Istani/syth-rpg-prompgenerator.git
+[submodule "packages/aichar"]
+	path = packages/aichar
+	url = git@github.com:Istani/ai-char-manager.git
+[submodule "libs/openrouter.ai"]
+	path = libs/openrouter.ai
+	url = git@github.com:Istani/test_openrouter.git
+
